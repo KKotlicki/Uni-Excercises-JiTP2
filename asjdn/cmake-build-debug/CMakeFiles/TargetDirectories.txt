@@ -1,3 +1,0 @@
-C:/JTP2/zad4/cmake-build-debug/CMakeFiles/zad4.dir
-C:/JTP2/zad4/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/JTP2/zad4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
