@@ -1,0 +1,930 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2767db142b898556ecb5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						81
+					]
+				},
+				{
+					"build" : "zlib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-zlib-Debug-55bc24d33cbad9fe5fc1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "zlib",
+					"targetIndexes" : 
+					[
+						32
+					]
+				},
+				{
+					"build" : "jpeg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-jpeg-Debug-c0db6a5ae7a94c2b7e4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "jpeg",
+					"targetIndexes" : 
+					[
+						30
+					]
+				},
+				{
+					"build" : "png",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-png-Debug-97787e24715478b08f7f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "png",
+					"targetIndexes" : 
+					[
+						31
+					]
+				},
+				{
+					"build" : "fluid",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-fluid-Debug-b18faa309f2aceed37ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "fluid",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-src-Debug-810654254e9c0cf9fd7e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						25,
+						27,
+						28,
+						29
+					]
+				},
+				{
+					"build" : "test",
+					"jsonFile" : "directory-test-Debug-f18be1977b403cfd1a50.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.2.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						26,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						82,
+						83,
+						84,
+						85
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "FLTK",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66,
+						67,
+						68,
+						69,
+						70,
+						71,
+						72,
+						73,
+						74,
+						75,
+						76,
+						77,
+						78,
+						79,
+						80,
+						81,
+						82,
+						83,
+						84,
+						85
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "CubeView::@36f028580bb02cc8272a",
+					"jsonFile" : "target-CubeView-Debug-bcaea0be35726857d290.json",
+					"name" : "CubeView",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "adjuster::@36f028580bb02cc8272a",
+					"jsonFile" : "target-adjuster-Debug-905eb8ffb50bc6b651f3.json",
+					"name" : "adjuster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "animated::@36f028580bb02cc8272a",
+					"jsonFile" : "target-animated-Debug-a034cdf9b0b7fdfceae1.json",
+					"name" : "animated",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "arc::@36f028580bb02cc8272a",
+					"jsonFile" : "target-arc-Debug-98a7d57f090884e89b24.json",
+					"name" : "arc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ask::@36f028580bb02cc8272a",
+					"jsonFile" : "target-ask-Debug-0346dc5ae06d6493b64e.json",
+					"name" : "ask",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "bitmap::@36f028580bb02cc8272a",
+					"jsonFile" : "target-bitmap-Debug-a3a3950f5b6d585837b3.json",
+					"name" : "bitmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "blocks::@36f028580bb02cc8272a",
+					"jsonFile" : "target-blocks-Debug-96b662513037c3ee750c.json",
+					"name" : "blocks",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "boxtype::@36f028580bb02cc8272a",
+					"jsonFile" : "target-boxtype-Debug-cdbe919ea651dd8d8d8a.json",
+					"name" : "boxtype",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "browser::@36f028580bb02cc8272a",
+					"jsonFile" : "target-browser-Debug-5f728256cb1e4f71e8c0.json",
+					"name" : "browser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "button::@36f028580bb02cc8272a",
+					"jsonFile" : "target-button-Debug-a48f6854db89d5c2db8e.json",
+					"name" : "button",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "buttons::@36f028580bb02cc8272a",
+					"jsonFile" : "target-buttons-Debug-4c3d5abfcac3217ec184.json",
+					"name" : "buttons",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "cairo_test::@36f028580bb02cc8272a",
+					"jsonFile" : "target-cairo_test-Debug-a5e0d611e5bee996a2cf.json",
+					"name" : "cairo_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "checkers::@36f028580bb02cc8272a",
+					"jsonFile" : "target-checkers-Debug-8090cc3a3049e5b5e2ca.json",
+					"name" : "checkers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "clock::@36f028580bb02cc8272a",
+					"jsonFile" : "target-clock-Debug-19009ae189ff33f43553.json",
+					"name" : "clock",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "colbrowser::@36f028580bb02cc8272a",
+					"jsonFile" : "target-colbrowser-Debug-74b38e6b383614d46b1b.json",
+					"name" : "colbrowser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "color_chooser::@36f028580bb02cc8272a",
+					"jsonFile" : "target-color_chooser-Debug-8d4262f188f0e31a7e06.json",
+					"name" : "color_chooser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "cube::@36f028580bb02cc8272a",
+					"jsonFile" : "target-cube-Debug-e616d1740d391b1a1477.json",
+					"name" : "cube",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "cursor::@36f028580bb02cc8272a",
+					"jsonFile" : "target-cursor-Debug-1851450d9327c410d619.json",
+					"name" : "cursor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "curve::@36f028580bb02cc8272a",
+					"jsonFile" : "target-curve-Debug-3c95a586cf0db5011657.json",
+					"name" : "curve",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "demo::@36f028580bb02cc8272a",
+					"jsonFile" : "target-demo-Debug-ddc3c2997235df8114cf.json",
+					"name" : "demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "device::@36f028580bb02cc8272a",
+					"jsonFile" : "target-device-Debug-66d1ee66407050158609.json",
+					"name" : "device",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "doublebuffer::@36f028580bb02cc8272a",
+					"jsonFile" : "target-doublebuffer-Debug-3c97aadd9736d878207a.json",
+					"name" : "doublebuffer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "editor::@36f028580bb02cc8272a",
+					"jsonFile" : "target-editor-Debug-c20a3c915807d93b6f38.json",
+					"name" : "editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fast_slow::@36f028580bb02cc8272a",
+					"jsonFile" : "target-fast_slow-Debug-41717eb0f2a1d4f0834c.json",
+					"name" : "fast_slow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "file_chooser::@36f028580bb02cc8272a",
+					"jsonFile" : "target-file_chooser-Debug-45a473abf0c6c64e3a75.json",
+					"name" : "file_chooser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fltk::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fltk-Debug-e78bf1380d03554bc67d.json",
+					"name" : "fltk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fltk-versions::@36f028580bb02cc8272a",
+					"jsonFile" : "target-fltk-versions-Debug-7c79d70164586fbe5c99.json",
+					"name" : "fltk-versions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fltk_forms::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fltk_forms-Debug-3a122e03cff983fad16e.json",
+					"name" : "fltk_forms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fltk_gl::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fltk_gl-Debug-5c9d9cc5a1042044dba5.json",
+					"name" : "fltk_gl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fltk_images::@145eef247bfb46b6828c",
+					"jsonFile" : "target-fltk_images-Debug-e4f95d8d0a58fe608bbf.json",
+					"name" : "fltk_images",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "fltk_jpeg::@b492fd76fa403e4bc5ca",
+					"jsonFile" : "target-fltk_jpeg-Debug-a224523bd86642764880.json",
+					"name" : "fltk_jpeg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "fltk_png::@a46853fb3a4587e140ae",
+					"jsonFile" : "target-fltk_png-Debug-191b7a9cb943c906f47c.json",
+					"name" : "fltk_png",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fltk_z::@036b525f80ea8433013a",
+					"jsonFile" : "target-fltk_z-Debug-620f5b51e645512960c0.json",
+					"name" : "fltk_z",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "fluid::@167fe83ba7da77ddcbfb",
+					"jsonFile" : "target-fluid-Debug-cf5e88b5bf1012937fd6.json",
+					"name" : "fluid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fonts::@36f028580bb02cc8272a",
+					"jsonFile" : "target-fonts-Debug-bee670cd3059b3c6c68b.json",
+					"name" : "fonts",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "forms::@36f028580bb02cc8272a",
+					"jsonFile" : "target-forms-Debug-b65ece9001bdc5b6f818.json",
+					"name" : "forms",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fractals::@36f028580bb02cc8272a",
+					"jsonFile" : "target-fractals-Debug-db3102e09a50e74ef6fe.json",
+					"name" : "fractals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "fullscreen::@36f028580bb02cc8272a",
+					"jsonFile" : "target-fullscreen-Debug-47009bacec6e32ca337b.json",
+					"name" : "fullscreen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gl_overlay::@36f028580bb02cc8272a",
+					"jsonFile" : "target-gl_overlay-Debug-a3f7c3e8623025a9ac91.json",
+					"name" : "gl_overlay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glpuzzle::@36f028580bb02cc8272a",
+					"jsonFile" : "target-glpuzzle-Debug-289f624ad708213e18e1.json",
+					"name" : "glpuzzle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "hello::@36f028580bb02cc8272a",
+					"jsonFile" : "target-hello-Debug-42023e4068ac503f7e2c.json",
+					"name" : "hello",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "help_dialog::@36f028580bb02cc8272a",
+					"jsonFile" : "target-help_dialog-Debug-1ce99c032221d07b077a.json",
+					"name" : "help_dialog",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "icon::@36f028580bb02cc8272a",
+					"jsonFile" : "target-icon-Debug-d7afdf6981b5ce50340f.json",
+					"name" : "icon",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "iconize::@36f028580bb02cc8272a",
+					"jsonFile" : "target-iconize-Debug-a5d54555085190e79911.json",
+					"name" : "iconize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "image::@36f028580bb02cc8272a",
+					"jsonFile" : "target-image-Debug-2133a5324a963c93dd8f.json",
+					"name" : "image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "inactive::@36f028580bb02cc8272a",
+					"jsonFile" : "target-inactive-Debug-c33c8d444a8ff0f03b02.json",
+					"name" : "inactive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "input::@36f028580bb02cc8272a",
+					"jsonFile" : "target-input-Debug-a0c3f9253f2299abda32.json",
+					"name" : "input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "input_choice::@36f028580bb02cc8272a",
+					"jsonFile" : "target-input_choice-Debug-464538af8270df6bd5ce.json",
+					"name" : "input_choice",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "keyboard::@36f028580bb02cc8272a",
+					"jsonFile" : "target-keyboard-Debug-4ba559e482de82153164.json",
+					"name" : "keyboard",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "label::@36f028580bb02cc8272a",
+					"jsonFile" : "target-label-Debug-c07e27f8ee398c6e3205.json",
+					"name" : "label",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "line_style::@36f028580bb02cc8272a",
+					"jsonFile" : "target-line_style-Debug-637a745a20fc35013724.json",
+					"name" : "line_style",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "list_visuals::@36f028580bb02cc8272a",
+					"jsonFile" : "target-list_visuals-Debug-4baae9dc208062cd5238.json",
+					"name" : "list_visuals",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "mandelbrot::@36f028580bb02cc8272a",
+					"jsonFile" : "target-mandelbrot-Debug-77fa913f72d372b9c5b2.json",
+					"name" : "mandelbrot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "menubar::@36f028580bb02cc8272a",
+					"jsonFile" : "target-menubar-Debug-63ff1fe5b79c32d50f96.json",
+					"name" : "menubar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "message::@36f028580bb02cc8272a",
+					"jsonFile" : "target-message-Debug-5a8c7a6c40d3d0f54e34.json",
+					"name" : "message",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "minimum::@36f028580bb02cc8272a",
+					"jsonFile" : "target-minimum-Debug-3647463ec131b31d6205.json",
+					"name" : "minimum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "native-filechooser::@36f028580bb02cc8272a",
+					"jsonFile" : "target-native-filechooser-Debug-8eb952d8ceb1075e7eb6.json",
+					"name" : "native-filechooser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "navigation::@36f028580bb02cc8272a",
+					"jsonFile" : "target-navigation-Debug-b0832668e1430c90fd7d.json",
+					"name" : "navigation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "offscreen::@36f028580bb02cc8272a",
+					"jsonFile" : "target-offscreen-Debug-47515bf1156492e5367d.json",
+					"name" : "offscreen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "output::@36f028580bb02cc8272a",
+					"jsonFile" : "target-output-Debug-a4820152d2b4c4521f9b.json",
+					"name" : "output",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "overlay::@36f028580bb02cc8272a",
+					"jsonFile" : "target-overlay-Debug-76a6016425f2d009179f.json",
+					"name" : "overlay",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "pack::@36f028580bb02cc8272a",
+					"jsonFile" : "target-pack-Debug-6079f56d16b3cd624c6f.json",
+					"name" : "pack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "pixmap::@36f028580bb02cc8272a",
+					"jsonFile" : "target-pixmap-Debug-b467654ee462991d6a4e.json",
+					"name" : "pixmap",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "pixmap_browser::@36f028580bb02cc8272a",
+					"jsonFile" : "target-pixmap_browser-Debug-c71d731505f50735bccc.json",
+					"name" : "pixmap_browser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "preferences::@36f028580bb02cc8272a",
+					"jsonFile" : "target-preferences-Debug-56b1a66c1bc05ff05da1.json",
+					"name" : "preferences",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "radio::@36f028580bb02cc8272a",
+					"jsonFile" : "target-radio-Debug-288981f6fb881317593f.json",
+					"name" : "radio",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "resize::@36f028580bb02cc8272a",
+					"jsonFile" : "target-resize-Debug-e22028ce839f46692175.json",
+					"name" : "resize",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "resizebox::@36f028580bb02cc8272a",
+					"jsonFile" : "target-resizebox-Debug-834a8800493c5e67d065.json",
+					"name" : "resizebox",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "rotated_text::@36f028580bb02cc8272a",
+					"jsonFile" : "target-rotated_text-Debug-712579abeefdd5191355.json",
+					"name" : "rotated_text",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "scroll::@36f028580bb02cc8272a",
+					"jsonFile" : "target-scroll-Debug-0f41ff3dfa549ae0d306.json",
+					"name" : "scroll",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "shape::@36f028580bb02cc8272a",
+					"jsonFile" : "target-shape-Debug-634c2dc443a81ac097e7.json",
+					"name" : "shape",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "subwindow::@36f028580bb02cc8272a",
+					"jsonFile" : "target-subwindow-Debug-c90799343731a7a73d56.json",
+					"name" : "subwindow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sudoku::@36f028580bb02cc8272a",
+					"jsonFile" : "target-sudoku-Debug-c047128325b2b6d5d42a.json",
+					"name" : "sudoku",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "symbols::@36f028580bb02cc8272a",
+					"jsonFile" : "target-symbols-Debug-e43b47f3e3b5c7d8cfff.json",
+					"name" : "symbols",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "table::@36f028580bb02cc8272a",
+					"jsonFile" : "target-table-Debug-c88d1e87647029d84f22.json",
+					"name" : "table",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "tabs::@36f028580bb02cc8272a",
+					"jsonFile" : "target-tabs-Debug-8d7cd33b246fe6d03535.json",
+					"name" : "tabs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "threads::@36f028580bb02cc8272a",
+					"jsonFile" : "target-threads-Debug-20fc45fee63d6d936a48.json",
+					"name" : "threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "tile::@36f028580bb02cc8272a",
+					"jsonFile" : "target-tile-Debug-b3e90490ff475a870fe7.json",
+					"name" : "tile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "tiled_image::@36f028580bb02cc8272a",
+					"jsonFile" : "target-tiled_image-Debug-fbd54331312208629b62.json",
+					"name" : "tiled_image",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "tree::@36f028580bb02cc8272a",
+					"jsonFile" : "target-tree-Debug-a0206953666464a4459f.json",
+					"name" : "tree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "twowin::@36f028580bb02cc8272a",
+					"jsonFile" : "target-twowin-Debug-df9c10047cc42df5e6f0.json",
+					"name" : "twowin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-8e29236dc0f6ec149e91.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "unittests::@36f028580bb02cc8272a",
+					"jsonFile" : "target-unittests-Debug-8e612729c22d2eec1771.json",
+					"name" : "unittests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "utf8::@36f028580bb02cc8272a",
+					"jsonFile" : "target-utf8-Debug-bfe104fa017b86de1b22.json",
+					"name" : "utf8",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "valuators::@36f028580bb02cc8272a",
+					"jsonFile" : "target-valuators-Debug-672614d215c054770b02.json",
+					"name" : "valuators",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "windowfocus::@36f028580bb02cc8272a",
+					"jsonFile" : "target-windowfocus-Debug-06fd8b9ed7ecad61f773.json",
+					"name" : "windowfocus",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/JTP2/zad4/fltk/cmake-build-debug",
+		"source" : "C:/JTP2/zad4/fltk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

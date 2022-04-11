@@ -1,0 +1,72 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"FL_ADD_LIBRARY"
+		],
+		"files" : 
+		[
+			"CMake/fl_add_library.cmake",
+			"jpeg/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 63,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libfltk_jpeg.a"
+			],
+			"targetId" : "fltk_jpeg::@b492fd76fa403e4bc5ca",
+			"targetIndex" : 30,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "include/FL/images",
+			"paths" : 
+			[
+				"jpeg/jconfig.h",
+				"jpeg/jerror.h",
+				"jpeg/jmorecfg.h",
+				"jpeg/jpeglib.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "jpeg",
+		"source" : "jpeg"
+	}
+}

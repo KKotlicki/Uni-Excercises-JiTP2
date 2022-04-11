@@ -1,0 +1,286 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/test/tree.exe"
+		},
+		{
+			"path" : "bin/test/tree.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"CREATE_EXAMPLE",
+			"target_link_libraries",
+			"add_custom_command",
+			"FLTK_RUN_FLUID",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMake/fl_create_example.cmake",
+			"test/CMakeLists.txt",
+			"CMake/FLTK-Functions.cmake",
+			"CMake/setup.cmake",
+			"CMakeLists.txt",
+			"CMake/options.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 113,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 95,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 29,
+				"parent" : 4
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 69,
+				"parent" : 6
+			},
+			{
+				"file" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 94,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 79,
+				"parent" : 6
+			},
+			{
+				"file" : 5,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 261,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 30,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 348,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 376,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 408,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_FILE_OFFSET_BITS=64"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_LARGEFILE64_SOURCE"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_LARGEFILE_SOURCE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "C:/JTP2/zad4/fltk/cmake-build-debug"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/JTP2/zad4/fltk"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/JTP2/zad4/fltk/zlib"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "C:/JTP2/zad4/fltk/jpeg"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "C:/JTP2/zad4/fltk/png"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/JTP2/zad4/fltk/test"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "C:/JTP2/zad4/fltk/cmake-build-debug/test"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "fluid::@167fe83ba7da77ddcbfb"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "fltk::@145eef247bfb46b6828c"
+		}
+	],
+	"id" : "tree::@36f028580bb02cc8272a",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-subsystem,windows  -mwindows",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "lib\\libfltk.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcomctl32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "tree",
+	"nameOnDisk" : "tree.exe",
+	"paths" : 
+	{
+		"build" : "test",
+		"source" : "test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/test/tree.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "test/tree.fl",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,6 @@
+# ninja log v5
+22	3794	6709858601879285	CMakeFiles/graph_lib.dir/Simple_window.cpp.obj	c750951c0c661872
+18	3851	6709858602508225	CMakeFiles/graph_lib.dir/GUI.cpp.obj	8fd40039f725d36e
+26	3919	6709858603137089	CMakeFiles/graph_lib.dir/Window.cpp.obj	6b47b1ea706a4b0b
+1	4275	6709858606713145	CMakeFiles/graph_lib.dir/Graph.cpp.obj	a519ad0c53498660
+4275	4430	6709858608308317	libgraph_lib.a	82c7c3f22df638e0

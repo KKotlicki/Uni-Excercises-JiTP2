@@ -1,0 +1,3 @@
+C:/JTP2/zad5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/JTP2/zad5/cmake-build-debug/CMakeFiles/test.dir
+C:/JTP2/zad5/cmake-build-debug/CMakeFiles/edit_cache.dir

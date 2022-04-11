@@ -1,0 +1,247 @@
+Determining if files alsa/asoundlib.h exist failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_7d676 && [1/2] Building C object CMakeFiles/cmTC_7d676.dir/HAVE_ALSA_ASOUNDLIB_H.c.obj
+FAILED: CMakeFiles/cmTC_7d676.dir/HAVE_ALSA_ASOUNDLIB_H.c.obj 
+C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_7d676.dir/HAVE_ALSA_ASOUNDLIB_H.c.obj -c C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ALSA_ASOUNDLIB_H.c
+C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_ALSA_ASOUNDLIB_H.c:2:10: fatal error: alsa/asoundlib.h: No such file or directory
+    2 | #include <alsa/asoundlib.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <alsa/asoundlib.h>
+
+
+int main(void){return 0;}
+
+Determining if files dlfcn.h exist failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_30fb5 && [1/2] Building C object CMakeFiles/cmTC_30fb5.dir/HAVE_DLFCN_H.c.obj
+FAILED: CMakeFiles/cmTC_30fb5.dir/HAVE_DLFCN_H.c.obj 
+C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_30fb5.dir/HAVE_DLFCN_H.c.obj -c C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_DLFCN_H.c
+C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_DLFCN_H.c:2:10: fatal error: dlfcn.h: No such file or directory
+    2 | #include <dlfcn.h>
+      |          ^~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <dlfcn.h>
+
+
+int main(void){return 0;}
+
+Determining if files libpng/png.h exist failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_5cee3 && [1/2] Building C object CMakeFiles/cmTC_5cee3.dir/HAVE_LIBPNG_PNG_H.c.obj
+FAILED: CMakeFiles/cmTC_5cee3.dir/HAVE_LIBPNG_PNG_H.c.obj 
+C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_5cee3.dir/HAVE_LIBPNG_PNG_H.c.obj -c C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_LIBPNG_PNG_H.c
+C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_LIBPNG_PNG_H.c:2:10: fatal error: libpng/png.h: No such file or directory
+    2 | #include <libpng/png.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <libpng/png.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glu.h exist failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_314d1 && [1/2] Building C object CMakeFiles/cmTC_314d1.dir/HAVE_OPENGL_GLU_H.c.obj
+FAILED: CMakeFiles/cmTC_314d1.dir/HAVE_OPENGL_GLU_H.c.obj 
+C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_314d1.dir/HAVE_OPENGL_GLU_H.c.obj -c C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLU_H.c
+C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_OPENGL_GLU_H.c:2:10: fatal error: OpenGL/glu.h: No such file or directory
+    2 | #include <OpenGL/glu.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <OpenGL/glu.h>
+
+
+int main(void){return 0;}
+
+Determining if files png.h exist failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_330d2 && [1/2] Building C object CMakeFiles/cmTC_330d2.dir/HAVE_PNG_H.c.obj
+FAILED: CMakeFiles/cmTC_330d2.dir/HAVE_PNG_H.c.obj 
+C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_330d2.dir/HAVE_PNG_H.c.obj -c C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_PNG_H.c
+C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_PNG_H.c:2:10: fatal error: png.h: No such file or directory
+    2 | #include <png.h>
+      |          ^~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <png.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/select.h exist failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_23902 && [1/2] Building C object CMakeFiles/cmTC_23902.dir/HAVE_SYS_SELECT_H.c.obj
+FAILED: CMakeFiles/cmTC_23902.dir/HAVE_SYS_SELECT_H.c.obj 
+C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_23902.dir/HAVE_SYS_SELECT_H.c.obj -c C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SELECT_H.c
+C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SELECT_H.c:2:10: fatal error: sys/select.h: No such file or directory
+    2 | #include <sys/select.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/select.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/stdtypes.h exist failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_f8e1d && [1/2] Building C object CMakeFiles/cmTC_f8e1d.dir/HAVE_SYS_STDTYPES_H.c.obj
+FAILED: CMakeFiles/cmTC_f8e1d.dir/HAVE_SYS_STDTYPES_H.c.obj 
+C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_f8e1d.dir/HAVE_SYS_STDTYPES_H.c.obj -c C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STDTYPES_H.c
+C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_SYS_STDTYPES_H.c:2:10: fatal error: sys/stdtypes.h: No such file or directory
+    2 | #include <sys/stdtypes.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <sys/stdtypes.h>
+
+
+int main(void){return 0;}
+
+Determining if files X11/Xlib.h;X11/Xregion.h exist failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_0ee25 && [1/2] Building C object CMakeFiles/cmTC_0ee25.dir/HAVE_X11_XREGION_H.c.obj
+FAILED: CMakeFiles/cmTC_0ee25.dir/HAVE_X11_XREGION_H.c.obj 
+C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_0ee25.dir/HAVE_X11_XREGION_H.c.obj -c C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_X11_XREGION_H.c
+C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_X11_XREGION_H.c:2:10: fatal error: X11/Xlib.h: No such file or directory
+    2 | #include <X11/Xlib.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <X11/Xlib.h>
+#include <X11/Xregion.h>
+
+
+int main(void){return 0;}
+
+Determining if files X11/Xlib.h;X11/extensions/Xdbe.h exist failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_ef107 && [1/2] Building C object CMakeFiles/cmTC_ef107.dir/HAVE_XDBE_H.c.obj
+FAILED: CMakeFiles/cmTC_ef107.dir/HAVE_XDBE_H.c.obj 
+C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe    -o CMakeFiles/cmTC_ef107.dir/HAVE_XDBE_H.c.obj -c C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_XDBE_H.c
+C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CheckIncludeFiles/HAVE_XDBE_H.c:2:10: fatal error: X11/Xlib.h: No such file or directory
+    2 | #include <X11/Xlib.h>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <X11/Xlib.h>
+#include <X11/extensions/Xdbe.h>
+
+
+int main(void){return 0;}
+
+Determining if the function dlsym exists failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_15c84 && [1/2] Building C object CMakeFiles/cmTC_15c84.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_15c84.exe
+FAILED: cmTC_15c84.exe 
+cmd.exe /C "cd . && C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_FUNCTION_EXISTS=dlsym -Wl,-subsystem,windows CMakeFiles/cmTC_15c84.dir/CheckFunctionExists.c.obj -o cmTC_15c84.exe -Wl,--out-implib,libcmTC_15c84.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\programs\CLion 2021.3.3\bin\mingw\bin/ld.exe: CMakeFiles/cmTC_15c84.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `dlsym'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function scandir exists failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_a018b && [1/2] Building C object CMakeFiles/cmTC_a018b.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_a018b.exe
+FAILED: cmTC_a018b.exe 
+cmd.exe /C "cd . && C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_FUNCTION_EXISTS=scandir -Wl,-subsystem,windows CMakeFiles/cmTC_a018b.dir/CheckFunctionExists.c.obj -o cmTC_a018b.exe -Wl,--out-implib,libcmTC_a018b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\programs\CLion 2021.3.3\bin\mingw\bin/ld.exe: CMakeFiles/cmTC_a018b.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `scandir'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_f3233 && [1/2] Building C object CMakeFiles/cmTC_f3233.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_f3233.exe
+FAILED: cmTC_f3233.exe 
+cmd.exe /C "cd . && C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_FUNCTION_EXISTS=strlcat -Wl,-subsystem,windows CMakeFiles/cmTC_f3233.dir/CheckFunctionExists.c.obj -o cmTC_f3233.exe -Wl,--out-implib,libcmTC_f3233.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\programs\CLion 2021.3.3\bin\mingw\bin/ld.exe: CMakeFiles/cmTC_f3233.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `strlcat'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_747dd && [1/2] Building C object CMakeFiles/cmTC_747dd.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_747dd.exe
+FAILED: cmTC_747dd.exe 
+cmd.exe /C "cd . && C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_FUNCTION_EXISTS=strlcpy -Wl,-subsystem,windows CMakeFiles/cmTC_747dd.dir/CheckFunctionExists.c.obj -o cmTC_747dd.exe -Wl,--out-implib,libcmTC_747dd.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\programs\CLion 2021.3.3\bin\mingw\bin/ld.exe: CMakeFiles/cmTC_747dd.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `strlcpy'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the function glXGetProcAddressARB exists failed with the following output:
+Change Dir: C:/JTP2/zad4/fltk/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/programs/CLion 2021.3.3/bin/ninja/win/ninja.exe cmTC_f0ff3 && [1/2] Building C object CMakeFiles/cmTC_f0ff3.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_f0ff3.exe
+FAILED: cmTC_f0ff3.exe 
+cmd.exe /C "cd . && C:\programs\CLION2~1.3\bin\mingw\bin\gcc.exe -DCHECK_FUNCTION_EXISTS=glXGetProcAddressARB -Wl,-subsystem,windows CMakeFiles/cmTC_f0ff3.dir/CheckFunctionExists.c.obj -o cmTC_f0ff3.exe -Wl,--out-implib,libcmTC_f0ff3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lopengl32  -lglu32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:\programs\CLion 2021.3.3\bin\mingw\bin/ld.exe: CMakeFiles/cmTC_f0ff3.dir/CheckFunctionExists.c.obj:CheckFunctionExists.c:(.text+0x15): undefined reference to `glXGetProcAddressARB'
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
